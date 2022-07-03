@@ -20,7 +20,7 @@ toggleTheme.addEventListener('click', ()=>{
     else{
         toggleIcon.src= "assets/night.png";
         toggleText.textContent= "Dark Mode";
-        prueba.style.animation = "intermitente 3s";
+        prueba.style.animation = "intermitente2 3s";
         prueba.style.opacity = '1';
     }
 })

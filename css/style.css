@@ -103,8 +103,9 @@ section article div button{
     opacity: 0;
 }
 #luz{
-    opacity: 0;
+    opacity: 1;
     position: relative;
+    animation: intermitente 3s;
     
     
 }
@@ -135,6 +136,34 @@ section article div button{
     padding: 0 5px;
 }
 @keyframes intermitente{
+    0%{
+        opacity: 0;
+    }
+    10%{
+        opacity: 1;
+    }
+    15%{
+        opacity: 0;
+    }
+    18%{
+        opacity: 1;
+    }
+    20%{
+        opacity: 0;
+    }
+    23%{
+        opacity: 1;
+    }
+    26%{
+        opacity: 0;
+    }
+    29%{
+        opacity: 1;
+        
+    }
+    
+}
+@keyframes intermitente2{
     0%{
         opacity: 0;
     }
