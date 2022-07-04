@@ -221,9 +221,9 @@ section article.banner-dark{
 }
 .style{
     font-size: 4rem;
-    -webkit-text-fill-color: transparent;
+    /* -webkit-text-fill-color: transparent;
     -webkit-text-stroke-width: 1.5px;
-    -webkit-text-stroke-color: var(--hs-color);
+    -webkit-text-stroke-color: var(--hs-color); */
     transition: all 300ms ease-in-out;
 }
 
